@@ -91,7 +91,6 @@ function MovePos(horizontalMovement){ //Move the position of the car based on in
     const style = window.getComputedStyle(car);
     const matrix = new DOMMatrix(style.transform);
     const horizontalPos = matrix.m41 + VWtoPx(horizontalMovement);
-``
     console.log(PxtoVW(matrix.m41));
     if (matrix.m41 < VWtoPx(-0.1) && horizontalMovement < 0){
         return;
