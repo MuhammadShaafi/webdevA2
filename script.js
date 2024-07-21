@@ -29,6 +29,7 @@ let touchEnd = 0;
 
 //select all subtopic pages
 hideAll();
+document.querySelector("#qrcode").style.display = "block";
 function hideAll(){ //function to hide all pages
     for (let onepage of allPages){ //go through all subtopic pages
         onepage.style.display = "none"; //hide it
@@ -39,6 +40,7 @@ function show(id, mobileDisplay, desktopDisplay){ //function to show selected pa
     let onepage = document.querySelector(id);
     if (onepage.style.display !== "none"){
         onepage.style.display = "none";
+        document.querySelector("#qrcode").style.display = "block";
         return;
     }
     hideAll();

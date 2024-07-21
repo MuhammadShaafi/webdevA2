@@ -1,5 +1,16 @@
 *{margin: 0; padding: 0; box-sizing: border-box; font-family: Impact, "sans-serif";}
 
+#qrcode{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#qrcode>img{
+    width: 100%;
+    margin-top: 10%;
+}
 
 body>div:last-child{
     background-image: url("images/Background.jpg");
