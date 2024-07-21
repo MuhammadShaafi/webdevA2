@@ -2,7 +2,7 @@
 
 
 body>div:last-child{
-    background-image: url("Images/Background.jpg");
+    background-image: url("images/Background.jpg");
     content: "";
     top: 0; left: 0;
     width: 100vw;
